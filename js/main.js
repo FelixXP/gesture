@@ -11,12 +11,12 @@ document.addEventListener('gest', function(gesture) {
     	$(".gest-right i").html($(".gest-right i").html()-0+1)
     }
     if (gesture.up) {
-    	$("#current").html("right")
+    	$("#current").html("up")
     	console.log("up");
     	$(".gest-up i").html($(".gest-up i").html()-0+1)
     }
     if (gesture.down) {
-    	$("#current").html("right");
+    	$("#current").html("down");
     	console.log("down");
     	$(".gest-down i").html($(".gest-down i").html()-0+1)
     }
